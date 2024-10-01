@@ -9,7 +9,6 @@ The solution is illustrated through:
 
 ---
 
-<<<<<<< HEAD
 ## Installation & Setup
 =======
 1. **sol.py**: This file contains the Q-learning agent's implementation and the environment interaction logic.
@@ -17,7 +16,6 @@ The solution is illustrated through:
 3. **Figure_1.png**: Visualization of the cumulative rewards over 1000 episodes.
 4. **Figure_2.png**: Visualization of the agent's path over the waypoints at the final episode.
 5. **README.md**: This file provides detailed instructions for running the code and understanding the results.
->>>>>>> ae2fb4f99337219e3360612fc9689e83b90842fa
 
 ### Requirements
 
@@ -34,7 +32,6 @@ pip install gymnasium numpy matplotlib pandas
 
 ### Running the Code
 
-<<<<<<< HEAD
 1. Clone the repository:
    ```bash
    git clone https://github.com/MOONLABIISERB/marl-ecs-course.git
@@ -58,8 +55,6 @@ Upon running the code, you will see:
 ```bash
 python sol.py
 ```
->>>>>>> ae2fb4f99337219e3360612fc9689e83b90842fa
-
 ---
 
 ## Files and Directories
@@ -79,6 +74,9 @@ This file contains the implementation of the Q-learning agent `AgentQLearner`. K
 ### 3. Figures
 - **Figure 1**: A graph of the cumulative rewards earned by the agent over 1000 episodes.
 - **Figure 2**: A plot showing the final path taken by the agent across all waypoints.
+![Figure_2](https://github.com/user-attachments/assets/608d2ba8-b079-41ec-b857-98eb9b8cebde)
+![Figure_1](https://github.com/user-attachments/assets/a6c58354-fdc7-4adc-808e-dbc00fdeb550)
+![tsp_path_render](https://github.com/user-attachments/assets/fe834956-b190-4e77-bb42-8ee248ce597c)
 
 ### 4. Output Dictionary (Episodic Rewards)
 The following dictionary captures the cumulative rewards at intervals during the training process:
